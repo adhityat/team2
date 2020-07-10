@@ -19,7 +19,7 @@
     text-align: center;
   }
   .side {
-    flex: 30%;
+    flex: 15%;
     background-color: #f1f1f1;
     padding: 20px;
   }
@@ -48,7 +48,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    float: left;
   }
   
   input[type=submit]:hover {
