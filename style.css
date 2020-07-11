@@ -2,25 +2,31 @@
  .row {  
     display: flex;
   }
+
+  body
+{ 
+    font-family: 'Roboto', sans-serif;
+}
   .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #f8b12e;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 5px 3px #ffffff ;
   }
   .navbar {
     display: flex;
-    background-color: #333;
+    background-color: #000000;
   }
   .navbar a {
-    color: white;
+    color: #f8b12e;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
   }
   .side {
     flex: 15%;
-    background-color: #f1f1f1;
+    background-color: #e6943685;
     padding: 20px;
   }
   .main {
