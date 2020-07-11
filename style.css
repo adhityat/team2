@@ -70,3 +70,14 @@
     display: table;
     clear: both;
   }
+
+  .kiri {
+    flex : 25%;
+    background-color: #14cba8;
+    padding: 30px;
+  }
+  .tengah {
+    flex: 75%;
+    background-color: lightskyblue;
+    padding: 30px;
+  }
