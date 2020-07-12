@@ -76,14 +76,14 @@ body {
   }
 
   .kiri {
-    flex : 25%;
+    flex : 15%;
     background-color: #14cba8;
-    padding: 30px;
+    padding: 20px;
   }
   .tengah {
-    flex: 75%;
+    flex: 70%;
     background-color: lightskyblue;
-    padding: 30px;
+    padding: 20px;
   }
   .btn {
       transform: translate(-50%,-50%);
