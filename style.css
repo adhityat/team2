@@ -30,7 +30,7 @@ body {
     float: right;
   }
   .navbar .search-container input[type=text] {
-    width: 150px;
+    width: 300px;
     padding: 6px;
     margin-top: 8px;
     font-size: 17px;
@@ -104,14 +104,14 @@ body {
   }
 
   .kiri {
-    flex : 25%;
-    background-color: #14cba8;
-    padding: 30px;
+    flex : 15%;
+    background-color: #f6ab6c;
+    padding: 20px;
   }
   .tengah {
-    flex: 75%;
-    background-color: lightskyblue;
-    padding: 30px;
+    flex: 70%;
+    background-color: #f6efa6;
+    padding: 20px;
   }
   .btn {
       transform: translate(-50%,-50%);
