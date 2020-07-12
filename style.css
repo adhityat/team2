@@ -77,12 +77,12 @@ body {
 
   .kiri {
     flex : 15%;
-    background-color: #14cba8;
+    background-color: #f6ab6c;
     padding: 20px;
   }
   .tengah {
     flex: 70%;
-    background-color: lightskyblue;
+    background-color: #f6efa6;
     padding: 20px;
   }
   .btn {
