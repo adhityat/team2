@@ -141,16 +141,25 @@
                         <textarea rows="10" placeholder="Silahkan di isi"></textarea>
                     </div>
                 </div>
-                <div style="padding: 10px;">
-                    <input type="submit" value="Simpan" onclick="show_alert()">
+                <div style="padding: 50px;">
+                    <a class="btn" onclick="show_alert()">Simpan</a>
                 </div>
             </form> 
             </div>
-
-            <script>
+            <script type="text/javascript">
                 function show_alert() {
                     alert("Terima Kasih atas masukannya");
                     }
+                var c = 0
+                function pop() {
+                    if(c == 0){
+                        document.getElementById("box").style.display = "block";
+                        c = 1;
+                    }else {
+                        document.getElementById("box").style.display = "none";
+                        c = 0;
+                    }
+                }    
             </script>
     </body>
 </html>
