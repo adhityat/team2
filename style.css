@@ -28,6 +28,10 @@ body {
     display: block;
     font-size: 17px;
   }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
   .navbar .search-container {
     float: right;
   }
